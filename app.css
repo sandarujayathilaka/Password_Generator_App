@@ -1,0 +1,170 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#maindiv{
+position: relative;
+width: 676px;
+height: 675.94px;
+background-color: #1C1C1C;
+margin: auto;
+
+}
+
+#secdiv{
+position:absolute;
+width: 550px;
+height: 550px;
+left: 62px;
+top: 64px;
+background: #1F2937;
+}
+
+#line{
+
+position: absolute;
+width: 446px;
+height: 0px;
+left: 52px;
+top: 361px;
+border: 1px solid #2F3E53;
+}
+
+#btn_1{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 17px 9px 15px;
+gap: 12px;
+
+position: absolute;
+width: 191px;
+height: 42px;
+left: 52px;
+top: 284px;
+
+background: #10B981;
+/* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* white */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+#thdiv{
+
+position: absolute;
+width: 211px;
+height: 39px;
+left: 52px;
+top: 396px;
+
+background: #273549;
+border-radius: 6px;
+}
+
+h5{
+
+position: absolute;
+width: 372px;
+height: 28px;
+left: 52px;
+top: 180px;
+
+/* text-xl/leading-7/font-normal */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+
+/* Medium grey */
+
+color: #D5D4D8;
+}
+
+#t2{
+
+    position: absolute;
+width: 354px;
+height: 80px;
+left: 52px;
+top: 115px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+/* or 100% */
+
+letter-spacing: -0.025em;
+
+/* white */
+
+color: #4ADF86;
+}
+
+#t1{
+    position: absolute;
+width: 354px;
+height: 80px;
+left: 52px;
+top: 70px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+/* or 100% */
+
+letter-spacing: -0.025em;
+
+/* white */
+
+color: #FFFFFF;
+}
+
+#newone{
+    color: #FFFFFF;
+    margin-top: 2.5px;
+    text-align: center;
+    
+}
+
+#dev{
+    position:absolute;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #1C1C1C;
+    padding: 1px;
+    text-align: center;
+    color:white ;
+}
